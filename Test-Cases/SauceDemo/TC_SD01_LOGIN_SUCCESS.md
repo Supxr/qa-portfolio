@@ -7,5 +7,5 @@
 1. Navigate to https://www.saucedemo.com/
 2. Enter username: `standard_user`
 3. Enter password: `secret_sauce`
-4. Clik the "Login" button
+4. Clik the `Login` button
 
