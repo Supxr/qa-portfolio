@@ -1,6 +1,6 @@
-# Quality Assurance Portfolio by Jezer Lagman
+# Quality Assurance Portfolio
 
-Welcome! This is a portfolio showcasing my manual testing, bug reporting, test plans, API testing, and automation scripts.
+Welcome! My name is Jezer Lagman and this is a portfolio showcasing my manual testing, bug reporting, test plans, API testing, and automation scripts. Each folder contains practical examples of my work from testing projects, which include real or mock applications. If you would like to connect with me to learn more, please feel free to reach out!
 
 ## Portfolio Contents
 
