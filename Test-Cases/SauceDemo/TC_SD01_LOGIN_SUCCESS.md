@@ -13,7 +13,9 @@
 Form is successfully submitted, the user is redirected to the Products page and the URL contains `/inventory.html`
 
 **Actual Result(s):**
-Form is successfully submitted using the valid credentials: `username: standard_user` and `password: secret_sauce`, the URL contains `/inventory.html` which confirms successful redirection to the Products page.
+Form is successfully submitted using the valid credentials: /n
+`username: standard_user`/n
+`password: secret_sauce`, the URL contains `/inventory.html` which confirms successful redirection to the Products page.
 
 **Status:**
 Pass
