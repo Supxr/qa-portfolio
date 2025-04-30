@@ -17,7 +17,6 @@ Form is successfully submitted using the valid credentials:<br><br>
 `username: standard_user`<br>
 `password: secret_sauce`<br>
 
-The URL contains `/inventory.html` which confirms successful redirection to the Products page.
+The URL contains `/inventory.html` which confirms successful redirection to the Products page. <br><br>
 
-**Status:**
-Pass
+**Status:** Pass
