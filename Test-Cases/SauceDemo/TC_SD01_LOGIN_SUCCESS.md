@@ -9,15 +9,14 @@
 3. Enter password: `secret_sauce`
 4. Clik the `Login` button
 
-**Expected Result(s):**
+**Expected Result(s):**<br>
 Form is successfully submitted, the user is redirected to the Products page and the URL contains `/inventory.html`
 
 
-**Actual Result(s):**
-Form is successfully submitted using the valid credentials:
-
-`username: standard_user`
-`password: secret_sauce` 
+**Actual Result(s):**<br>
+Form is successfully submitted using the valid credentials:<br><br>
+`username: standard_user`<br>
+`password: secret_sauce`<br>
 
 The URL contains `/inventory.html` which confirms successful redirection to the Products page.
 
