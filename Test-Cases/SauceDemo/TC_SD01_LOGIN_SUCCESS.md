@@ -2,7 +2,7 @@
 
 **Test Case ID:** TC_SD_01 <br>
 **Test Objective:** To verify that a user can login successfully when using valid credentials. <br>
-**Pro-conditions:** The user must be on the login page of the SauceDemo website. <br>
+**Pro-conditions:** The user must be on the login page of the SauceDemo website. <br><br>
 **Test Steps:**
 1. Navigate to https://www.saucedemo.com/
 2. Enter username: `standard_user`
@@ -11,7 +11,6 @@
 
 **Expected Result(s):**<br>
 Form is successfully submitted, the user is redirected to the Products page and the URL contains `/inventory.html`
-
 
 **Actual Result(s):**<br>
 Form is successfully submitted using the valid credentials:<br><br>
