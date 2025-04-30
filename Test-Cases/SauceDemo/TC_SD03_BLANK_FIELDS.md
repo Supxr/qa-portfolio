@@ -1,7 +1,7 @@
 # Test Case: Login Attempt Using Blank Username/Password
 
 **Test Case ID:** TC_SD_03<br>
-**Test Objectives:** To verify that the system denies access to the Product page when the username and input fields are left blank or empty. <br>
+**Test Objectives:** To verify that the system denies access to the Product page when the username and input fields are left blank and empty. <br>
 **Preconditions:** The user must be on the login page of the SauceDemo website.<br><br>
 
 **Test Steps:**
