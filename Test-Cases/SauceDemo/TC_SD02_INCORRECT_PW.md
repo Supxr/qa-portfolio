@@ -6,7 +6,7 @@
 **Test Steps:** <br>
 1. Navigate to https://saucedemo.com/
 2. Enter username: `standard_user`
-3. Enter password: `password`
+3. Enter password: `wrong_password`
 4. Click `Login` button
 
 **Expected Result(s):**
