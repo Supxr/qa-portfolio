@@ -8,3 +8,11 @@
 2. Enter username: `standard_user`
 3. Enter password: `password`
 4. Click `Login` button
+
+**Expected Result(s):**
+User is denied access due to invalid username or password, and is provided an error message that reads `Epic sadface: Username and password do not match any user in this service`.
+
+**Actual Result(s):**
+User is denied access due to invalid username or password, and is provided an error message that reads `Epic sadface: Username and password do not match any user in this service`.
+
+**Status:** Pass
