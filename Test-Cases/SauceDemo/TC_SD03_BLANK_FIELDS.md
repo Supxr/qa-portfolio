@@ -5,7 +5,7 @@
 **Preconditions:** The user must be on the login page of the SauceDemo website.<br><br>
 
 **Test Steps:**
-1. Navigate to https://saucedemo.com/
+1. Navigate to https://www.saucedemo.com/
 2. Click `Login` Button<br><br>
 
 **Expected Result(s):**<br>
