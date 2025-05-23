@@ -1,4 +1,4 @@
-# Test Case: 
+# Test Case: Login Attempt Using Valid Username and Blank Password
 
 **Test Case ID:** TC_SD_04<br>
 **Test Objectives:** To verify that the system denies the user access if the username field is blank with a valid password.<br>
