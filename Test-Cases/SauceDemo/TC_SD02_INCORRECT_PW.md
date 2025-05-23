@@ -4,7 +4,7 @@
 **Test Objectives:** To verify that the system denies invalid credentials, and provides the user with an error message. <br>
 **Preconditions:** The user must be on the login page of the SauceDemo website. <br><br>
 **Test Steps:** <br>
-1. Navigate to https://saucedemo.com/
+1. Navigate to https://www.saucedemo.com/
 2. Enter username: `standard_user`
 3. Enter password: `wrong_password`
 4. Click `Login` button
