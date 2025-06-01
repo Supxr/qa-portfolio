@@ -2,7 +2,7 @@
 
 **Test Case ID:** TC_SD_24<br>
 **Test Objectives:** To verify that the user can add more than one item of the same kind.<br>
-**Pre-conditions:** The user must be logged into the SauceDemo website checkout page with at least one item in the shopping cart.<br><br>
+**Pre-conditions:** The user must be logged into the SauceDemo shopping cart page with at least one item in the shopping cart.<br><br>
 
 **Test Steps:** 
 1. Navigate to https://www.saucedemo.com/
