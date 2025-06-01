@@ -1,7 +1,7 @@
 # Test Case: Removing individual Items from the shopping cart through the checkout page.
 
 **Test Case ID:** TC_SD_23<br>
-**Test Objectives:** To verify that items can be removed from the shopping cart when on the checkout page.<br>
+**Test Objectives:** To verify that items can be removed from the shopping cart page.<br>
 **Pre-conditions:** The user must be logged into the SauceDemo website with at least one item in the shopping cart.<br><br>
 
 **Test Steps**
