@@ -1,4 +1,4 @@
-# Test Case: Submitting Information Form with Special Characters in the Last Name Field
+# Test Case: Submitting Information Form with Blankspaces in the Last Name Field
 
 **Test Case ID:** TC_SD_35<br>
 **Test Objectives:** To verify that the system prevents user from submitting the checkout information form if the last name field 
