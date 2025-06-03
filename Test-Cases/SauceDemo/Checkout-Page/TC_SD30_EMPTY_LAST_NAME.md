@@ -1,6 +1,6 @@
 # Test Case: Submitting Information Form with Empty Last Name Field
 
-**Test Case ID:** TC_SD_29<br>
+**Test Case ID:** TC_SD_30<br>
 **Test Objectives:** To verify that the system prevents user from submitting the checkout information form if the last name field is empty then provides an error message.<br>
 **Pre-conditions:** The user must be logged into the SauceDemo website and on the checkout page.<br><br>
 
