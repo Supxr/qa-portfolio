@@ -23,7 +23,7 @@ The following functional areas were covered in this test suite:
 | **Hamburger Menu**| Reset app state, logout, about/all items pages     |
 | **Continuity**    | Cart and state retention across sessions/pages     |
 
-> 💡 **Total Test Cases:** 40+  
+> 💡 **Total Test Cases:** 42  
 > 📂 Each module contains its own folder with detailed test cases and a `README.md`.
 
 ## 🧪 Test Approach
@@ -56,8 +56,8 @@ SauceDemo/<br>
 
 ## 👤 Tester Notes
 
-- All tests were performed on [browser info if you want to include it, e.g., Chrome 123, Windows 11].
+- All tests were performed on Version 137.0.7151.69 (Official Build) (64-bit).
 - No automation or API testing was used in this phase.
-- Bug reports available in the `/Bug-Reports` directory [if applicable].
+- Bug reports available in the `/Bug-Reports` directory.
 
 
