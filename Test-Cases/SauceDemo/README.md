@@ -29,9 +29,12 @@ The following functional areas were covered in this test suite:
 ## 🧪 Test Approach
 
 All test cases follow a structured format:
-- **Preconditions**
+- **Test Case Name**
+- **Test Case ID**
+- **Test Objectives**
+- **Precondition(s)**
 - **Step-by-step instructions**
-- **Expected vs Actual Result**
+- **Expected vs Actual Result(s)**
 - **Pass/Fail Status**
 
 Test coverage includes:
@@ -41,5 +44,13 @@ Test coverage includes:
 
 ## 📁 Folder Structure
 
+SauceDemo/
+├── Login/
+├── Product-Page/
+├── Shopping-Cart/
+├── Checkout-Page/
+├── Hamburger-Menu/
+├── Continuity/
+└── README.md
 
 
