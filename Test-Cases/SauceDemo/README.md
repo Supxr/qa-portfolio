@@ -52,5 +52,12 @@ SauceDemo/<br>
 ├── Hamburger-Menu/<br>
 ├── Continuity/<br>
 └── README.md<br>
+**Each subfolder includes a set of test cases relevant to its feature set.**
+
+## 👤 Tester Notes
+
+- All tests were performed on [browser info if you want to include it, e.g., Chrome 123, Windows 11].
+- No automation or API testing was used in this phase.
+- Bug reports available in the `/Bug-Reports` directory [if applicable].
 
 
