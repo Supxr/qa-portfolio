@@ -1,1 +1,2 @@
-README for the SauceDemo Folder
+# SauceDemo QA Test Suite
+
