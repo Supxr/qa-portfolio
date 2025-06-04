@@ -44,13 +44,13 @@ Test coverage includes:
 
 ## 📁 Folder Structure
 
-SauceDemo/
-├── Login/
-├── Product-Page/
-├── Shopping-Cart/
-├── Checkout-Page/
-├── Hamburger-Menu/
-├── Continuity/
-└── README.md
+SauceDemo/<br>
+├── Login/<br>
+├── Product-Page/<br>
+├── Shopping-Cart/<br>
+├── Checkout-Page/<br>
+├── Hamburger-Menu/<br>
+├── Continuity/<br>
+└── README.md<br>
 
 
