@@ -1,14 +1,6 @@
 # SauceDemo QA Test Suite
 
-This folder contains a comprehensive set of **manual test cases** created for the [SauceDemo](https://www.saucedemo.com/) web application. The goal of this testing effort is to validate the functionality, input validation, and business logic across multiple key areas of the application.
-
-## 🔍 Application Overview
-
-SauceDemo is an e-commerce demo app used for UI automation and QA training. It includes:
-- A login system with various user roles
-- Product listings with cart functionality
-- A multi-step checkout flow
-- Navigation through a hamburger menu
+This folder contains a comprehensive set of **manual test cases** created for the [SauceDemo](https://www.saucedemo.com/) web application. SauceDemo or sometimes known as Swag Labs is a demo e-commerce site created by [Sauce Labs](https://saucelabs.com/). The website provides a platform for not only automated, but also manual testing practice by featuring the basic end-to-end functions of an e-commerce website such as logging in, browsing products, populating a shopping cart, facilitating and completing a checkout. The goal of this testing effort is to validate the functionality, input validation, and business logic across multiple key areas of the application.
 
 ## ✅ What Was Tested
 
