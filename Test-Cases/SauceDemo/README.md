@@ -8,7 +8,7 @@ The following functional areas were covered in this test suite:
 
 | Module                                 | Description                                          |
 |----------------------------------------|------------------------------------------------------|
-| [**Login**](./Login)                   | Valid and invalid logins, blank fields, edge cases   |
+| [Login](./Login)                   | Valid and invalid logins, blank fields, edge cases   |
 | [**Product Page**](./Product-Page)     | Sorting, add/remove to cart, product detail views    |
 | [**Shopping Cart**](./Shopping-Cart)   | Quantity changes, empty carts, cart-to-checkout flow |
 | [**Checkout Page**](./Checkout-Page)   | Field-level validation and order completion          |
