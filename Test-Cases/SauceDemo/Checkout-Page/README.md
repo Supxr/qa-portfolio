@@ -8,11 +8,11 @@ These test cases validate the **input fields**, **error messaging**, **checkout 
 
 The following aspects of the Checkout Page were validated:
 
-|Test Case ID |Test Case                                                |Description  |
-|-------------|---------------------------------------------------------|-------------|
-|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM.md) | Required field validation       | (first name, last name, postal code)|
+|Test Case ID                              |Test Case                                                |Description  |
+|------------------------------------------|---------------------------------------------------------|-------------|
+|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM.md) | Cancelling the Order from the Information Request Form  | (first name, last name, postal code)|
 |[TC_SD_29]()     |Blank fields                                             | Sample Text |
-|[TC_SD_30]()    |Special characters                                       | Sample Text |
+|[TC_SD_30]()     |Special characters                                       | Sample Text |
 |[TC_SD_31]()     |Numeric and string length limits                         | Sample Text |
 |[TC_SD_32]()     |Checkout overview accuracy (item summary before payment) | Sample Text |
 |[TC_SD_33]()     |Successful and canceled checkout flows                   | Sample Text |
