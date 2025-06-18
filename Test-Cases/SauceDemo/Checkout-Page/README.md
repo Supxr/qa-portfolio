@@ -10,7 +10,7 @@ The following aspects of the Checkout Page were validated:
 
 |Test Case ID |Test Case                                                |Description  |
 |-------------|---------------------------------------------------------|-------------|
-|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM) | Required field validation       | (first name, last name, postal code)|
+|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM.md) | Required field validation       | (first name, last name, postal code)|
 |[TC_SD_29]()     |Blank fields                                             | Sample Text |
 |[TC_SD_30]()    |Special characters                                       | Sample Text |
 |[TC_SD_31]()     |Numeric and string length limits                         | Sample Text |
