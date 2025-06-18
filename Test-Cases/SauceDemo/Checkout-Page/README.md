@@ -1,56 +1,43 @@
-# SauceDemo QA Test Suite
+# SauceDemo – Checkout Page Test Cases
 
-This folder contains a comprehensive set of **manual test cases** created for the [SauceDemo](https://www.saucedemo.com/) web application. SauceDemo or sometimes known as Swag Labs is a demo e-commerce site created by [Sauce Labs](https://saucelabs.com/). The website provides a platform for not only automated, but also manual testing practice by featuring the basic end-to-end functions of an e-commerce website such as logging in, browsing products, populating a shopping cart, facilitating and completing a checkout. The goal of this testing effort is to validate the functionality, input validation, and business logic across multiple key areas of the application.
+This folder contains a detailed set of **manual test cases** focused on the **Checkout Page** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. The checkout flow represents the final step in the user journey and includes critical data entry for personal and shipping information.
+
+These test cases validate the **input fields**, **error messaging**, **checkout cancellation**, and **completion logic** of the multi-step checkout process.
 
 ## ✅ What Was Tested
 
-The following functional areas were covered in this test suite:
+The following aspects of the Checkout Page were validated:
 
-| Module                             | Description                                          |
-|------------------------------------|------------------------------------------------------|
-| [Login](./Login)                   | Valid and invalid logins, blank fields, edge cases   |
-| [Product Page](./Product-Page)     | Sorting, add/remove to cart, product detail views    |
-| [Shopping Cart](./Shopping-Cart)   | Quantity changes, empty carts, cart-to-checkout flow |
-| [Checkout Page](./Checkout-Page)   | Field-level validation and order completion          |
-| [Hamburger Menu](./Hamburger-Menu) | Reset app state, logout, about/all items pages       |
-| [Continuity](./Continuity)         | Cart and state retention across sessions/pages       |
+|Test Case-------------| Description |
+|Required field validation (first name, last name, postal code)|
+|Blank fields|
+|Special characters|
+|Numeric and string length limits|
+|Checkout overview accuracy (item summary before payment)|
+|Successful and canceled checkout flows|
+|Error messages and user feedback|
+|Final order confirmation screen|
 
-> 💡 **Total Test Cases:** 42  
-> 📂 Each module contains its own folder with detailed test cases and a `README.md`.
+> 🧪 **Total Test Cases:** 15  
+> 👁️ All tests are documented in individual `.md` files following a consistent format.
 
-## 🧪 Test Approach
+## 🧪 Test Case Format
 
-All test cases follow a structured format:
+Each test case follows this structure:
 - **Test Case Name**
 - **Test Case ID**
-- **Test Objectives**
-- **Precondition(s)**
-- **Step-by-step instructions**
-- **Expected vs Actual Result(s)**
+- **Test Objective**
+- **Preconditions**
+- **Test Steps**
+- **Expected Result**
+- **Actual Result**
 - **Pass/Fail Status**
 
-Test coverage includes:
-- Positive & negative flows
-- Field validation
-- Session and UI state behavior
+## 📄 Notes
 
-## 📁 Folder Structure
-
-SauceDemo/<br>
-├── Login/<br>
-├── Product-Page/<br>
-├── Shopping-Cart/<br>
-├── Checkout-Page/<br>
-├── Hamburger-Menu/<br>
-├── Continuity/<br>
-└── README.md<br>
-**Each subfolder includes a set of test cases relevant to its feature set.**
-
-## 👤 Tester Notes
-
-- All tests were performed on Version 137.0.7151.69 (Official Build) (64-bit).
-- No automation or API testing was used in this phase.
-- Bug reports available in the `/Bug-Reports` directory.
+- These test cases assume the user has already logged in and added items to the cart.
+- Tests were performed on **Google Chrome Version 137.0.7151.69 (64-bit)**.
+- This test set does not include automated or API-based tests.
 
 
 
