@@ -8,16 +8,16 @@ These test cases validate the **input fields**, **error messaging**, **checkout 
 
 The following aspects of the Checkout Page were validated:
 
-|Test Case                                                |Description  |
-|---------------------------------------------------------|-------------|
-|Required field validation                                | (first name, last name, postal code)|
-|Blank fields                                             | Sample Text |
-|Special characters                                       | Sample Text |
-|Numeric and string length limits                         | Sample Text |
-|Checkout overview accuracy (item summary before payment) | Sample Text |
-|Successful and canceled checkout flows                   | Sample Text |
-|Error messages and user feedback                         | Sample Text |
-|Final order confirmation screen                          | Sample Text |
+|Test Case ID |Test Case                                                |Description  |
+|-------------|---------------------------------------------------------|-------------|
+|1234567      |Required field validation                                | (first name, last name, postal code)|
+|1234567      |Blank fields                                             | Sample Text |
+|1234567      |Special characters                                       | Sample Text |
+|1234567      |Numeric and string length limits                         | Sample Text |
+|1234567      |Checkout overview accuracy (item summary before payment) | Sample Text |
+|1234567      |Successful and canceled checkout flows                   | Sample Text |
+|1234567      |Error messages and user feedback                         | Sample Text |
+|1234567      |Final order confirmation screen                          | Sample Text |
 
 > 🧪 **Total Test Cases:** 15  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
