@@ -10,14 +10,14 @@ The following aspects of the Checkout Page were validated:
 
 |Test Case ID |Test Case                                                |Description  |
 |-------------|---------------------------------------------------------|-------------|
-|1234567      |Required field validation                                | (first name, last name, postal code)|
-|1234567      |Blank fields                                             | Sample Text |
-|1234567      |Special characters                                       | Sample Text |
-|1234567      |Numeric and string length limits                         | Sample Text |
-|1234567      |Checkout overview accuracy (item summary before payment) | Sample Text |
-|1234567      |Successful and canceled checkout flows                   | Sample Text |
-|1234567      |Error messages and user feedback                         | Sample Text |
-|1234567      |Final order confirmation screen                          | Sample Text |
+|TC_SD_28     |Required field validation                                | (first name, last name, postal code)|
+|TC_SD_29     |Blank fields                                             | Sample Text |
+|TC_SD_30     |Special characters                                       | Sample Text |
+|TC_SD_31     |Numeric and string length limits                         | Sample Text |
+|TC_SD_32     |Checkout overview accuracy (item summary before payment) | Sample Text |
+|TC_SD_33     |Successful and canceled checkout flows                   | Sample Text |
+|TC_SD_34     |Error messages and user feedback                         | Sample Text |
+|TC_SD_35     |Final order confirmation screen                          | Sample Text |
 
 > 🧪 **Total Test Cases:** 15  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
