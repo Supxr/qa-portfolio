@@ -1,4 +1,4 @@
-# Test Case: Adding Products to the Checkout Cart
+# Test Case: Adding Products to the Shopping Cart
 
 **Test Case ID:** TC_SD_11<br>
 **Test Objectives:** To verify that products can be added to the shopping cart.<br>
