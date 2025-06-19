@@ -8,23 +8,23 @@ These test cases validate the **input fields**, **error messaging**, **checkout 
 
 The following aspects of the Checkout Page were validated:
 
-|Test Case ID                                       |Test Case                                                |
-|---------------------------------------------------|---------------------------------------------------------|
-|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM.md)          |Cancelling the Order from the Information Request Form   |
-|[TC_SD_29](./TC_SD29_EMPTY_FIRST_NAME.md)          |Blank fields                                             |
-|[TC_SD_30](./TC_SD30_EMPTY_LAST_NAME.md)           |Special characters                                       |
-|[TC_SD_31](./TC_SD31_EMPTY_ZIP.md)                 |Numeric and string length limits                         |
-|[TC_SD_32](./TC_SD32_SPECIAL_CHAR_FIRST_NAME.md)   |Checkout overview accuracy (item summary before payment) |
-|[TC_SD_33](./TC_SD33_SPECIAL_CHAR_LAST_NAME.md)    |Successful and canceled checkout flows                   |
-|[TC_SD_34](./TC_SD34_BLANK_FIRST_NAME.md)          |Error messages and user feedback                         |
-|[TC_SD_35](./TC_SD35_BLANK_LAST_NAME.md)           |Final order confirmation screen                          |
-|[TC_SD_36](./TC_SD36_BLANK_ZIP.md)                 |Error messages and user feedback                         |
-|[TC_SD_37](./TC_SD37_SPECIAL_CHAR_ZIP.md)          |Final order confirmation screen                          |
-|[TC_SD_38](./TC_SD38_SHORT_ZIP.md)                 |Error messages and user feedback                         |
-|[TC_SD_39](./TC_SD39_LONG_ZIP.md)                  |Final order confirmation screen                          |
-|[TC_SD_40](./TC_SD40_INVALID_POSTAL_CODE.md)       |Error messages and user feedback                         |
-|[TC_SD_41](./TC_SD41_CHECKOUT_OVERVIEW_DETAILS.md) |Final order confirmation screen                          |
-|[TC_SD_42](./TC_SD42_FINISH_ORDER.md)              |Final order confirmation screen                          |
+|Test Case ID                                       |Test Case                                                                        |
+|---------------------------------------------------|---------------------------------------------------------------------------------|
+|[TC_SD_28](./TC_SD28_CANCEL_INFO_FORM.md)          |Cancelling the Order from the Information Request Form                           |
+|[TC_SD_29](./TC_SD29_EMPTY_FIRST_NAME.md)          |Submitting Information Form with Empty First Name Field                          |
+|[TC_SD_30](./TC_SD30_EMPTY_LAST_NAME.md)           |Submitting Information Form with Empty Last Name Field                           |
+|[TC_SD_31](./TC_SD31_EMPTY_ZIP.md)                 |Submitting Information Form with Empty Zip/Postal Code Field                     |
+|[TC_SD_32](./TC_SD32_SPECIAL_CHAR_FIRST_NAME.md)   |Submitting Information Form with Special Characters in the First Name Field      |
+|[TC_SD_33](./TC_SD33_SPECIAL_CHAR_LAST_NAME.md)    |Submitting Information Form with Special Characters in the Last Name Field       |
+|[TC_SD_34](./TC_SD34_BLANK_FIRST_NAME.md)          |Submitting Information Form with Blankspaces in the First Name Field             |
+|[TC_SD_35](./TC_SD35_BLANK_LAST_NAME.md)           |Submitting Information Form with Blankspaces in the Last Name Field              |
+|[TC_SD_36](./TC_SD36_BLANK_ZIP.md)                 |Submitting Information Form with Blankspaces in the Zip/Postal Code Field        |
+|[TC_SD_37](./TC_SD37_SPECIAL_CHAR_ZIP.md)          |Submitting Information Form with Special Characters in the Zip/Postal Code Field |
+|[TC_SD_38](./TC_SD38_SHORT_ZIP.md)                 |Submitting Information Form with a Short Zip                                     |
+|[TC_SD_39](./TC_SD39_LONG_ZIP.md)                  |Submitting Information Form with a Long Zip Code                                 |
+|[TC_SD_40](./TC_SD40_INVALID_POSTAL_CODE.md)       |Submitting Information Form with an Invalid Postal Code                          |
+|[TC_SD_41](./TC_SD41_CHECKOUT_OVERVIEW_DETAILS.md) |Order details in the Checkout Overview Page                                      |
+|[TC_SD_42](./TC_SD42_FINISH_ORDER.md)              |Finishing an Order                                                               |
 
 > 🧪 **Total Test Cases:** 15  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
