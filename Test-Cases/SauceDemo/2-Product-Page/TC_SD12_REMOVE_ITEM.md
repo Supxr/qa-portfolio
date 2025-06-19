@@ -1,4 +1,4 @@
-# Test Case: Removing Product from the Shopping Cart
+# Test Case: Removing Products from the Shopping Cart
 
 **Test Case ID:** TC_SD_12<br>
 **Test Objectives:** To verify that removing a product updates the `Remove` button and the shopping cart badge.<br>
