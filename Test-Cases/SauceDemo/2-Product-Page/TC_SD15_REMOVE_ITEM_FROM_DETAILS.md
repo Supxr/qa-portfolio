@@ -1,4 +1,4 @@
-# Test Case: Remove Product from Shopping Cart through the Product Details Page
+# Test Case: Removing Product from Shopping Cart from the Product Details Page
 
 **Test Case ID:** TC_SD_15<br>
 **Test Objectives:** The user must be able to remove an item from the shopping cart through the product details page.<br>
