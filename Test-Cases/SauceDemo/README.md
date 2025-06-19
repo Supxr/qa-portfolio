@@ -8,12 +8,12 @@ The following functional areas were covered in this test suite:
 
 | Module                             | Description                                          |
 |------------------------------------|------------------------------------------------------|
-| [Login](./Login)                   | Valid and invalid logins, blank fields, edge cases   |
-| [Product Page](./Product-Page)     | Sorting, add/remove to cart, product detail views    |
-| [Shopping Cart](./Shopping-Cart)   | Quantity changes, empty carts, cart-to-checkout flow |
-| [Checkout Page](./Checkout-Page)   | Field-level validation and order completion          |
-| [Hamburger Menu](./Hamburger-Menu) | Reset app state, logout, about/all items pages       |
-| [Continuity](./Continuity)         | Cart and state retention across sessions/pages       |
+| [Login](./1-Login)                   | Valid and invalid logins, blank fields, edge cases   |
+| [Product Page](./2-Product-Page)     | Sorting, add/remove to cart, product detail views    |
+| [Shopping Cart](./3-Shopping-Cart)   | Quantity changes, empty carts, cart-to-checkout flow |
+| [Checkout Page](./4-Checkout-Page)   | Field-level validation and order completion          |
+| [Hamburger Menu](./5-Hamburger-Menu) | Reset app state, logout, about/all items pages       |
+| [Continuity](./6-Continuity)         | Cart and state retention across sessions/pages       |
 
 > 💡 **Total Test Cases:** 42  
 > 📂 Each module contains its own folder with detailed test cases and a `README.md`.
