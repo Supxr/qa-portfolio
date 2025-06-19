@@ -1,6 +1,6 @@
-# SauceDemo – Checkout Page Test Cases
+# SauceDemo – Login Page Test Cases
 
-This folder contains a detailed set of **manual test cases** focused on the **Checkout Page** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. The checkout flow represents the final step in the user journey and includes critical data entry for personal and shipping information.
+This folder contains a detailed set of **manual test cases** focused on the **Login** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. The checkout flow represents the final step in the user journey and includes critical data entry for personal and shipping information.
 
 These test cases validate the **input fields**, **error messaging**, **checkout cancellation**, and **completion logic** of the multi-step checkout process.
 
