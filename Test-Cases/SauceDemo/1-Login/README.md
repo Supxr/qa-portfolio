@@ -33,7 +33,6 @@ Each test case follows this structure:
 
 ## 📄 Notes
 
-- These test cases assume the user has already logged in and added items to the cart.
 - Tests were performed on **Google Chrome Version 137.0.7151.69 (64-bit)**.
 - This test set does not include automated or API-based tests.
 
