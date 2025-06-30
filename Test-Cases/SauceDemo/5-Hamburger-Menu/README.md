@@ -7,15 +7,14 @@ These test cases validate the **`logout` button**, **`About` button**, **page re
 
 The following aspects of the shopping cart were tested:
 
-|Test Case ID                                        |Test Case                                                       |
-|----------------------------------------------------|----------------------------------------------------------------|
-|[TC_SD_23](./TC_SD23_REMOVE_ITEM_FROM_CART_PAGE.md) |Removing individual Items from the shopping cart                |
-|[TC_SD_24](./TC_SD24_ADDING_QUANTITY.md)            |Raising order quantity for identical items                      | 
-|[TC_SD_25](./TC_SD25_CONTINUE_SHOPPING.md)          |Returning to the main products page from the shopping cart page |
-|[TC_SD_26](./TC_SD26_CHECKOUT_BUTTON.md)            |Accessing the Checkout Page from the Shopping Cart Page         |
-|[TC_SD_27](./TC_SD27_EMPTY_CHECKOUT.md)             |Attempting to Checkout an Empty Shopping Cart                   |
+|Test Case ID                             |Test Case                                                        |
+|-----------------------------------------|-----------------------------------------------------------------|
+|[TC_SD_07](./TC_SD07_RESET_APP_STATE.md) |Reset app state using the Reset App State Button                 |
+|[TC_SD_17](./TC_SD17_ALL_ITEMS.md)       |Redirecting back to the Products Page using the All Items button | 
+|[TC_SD_18](./TC_SD18_ABOUT_BUTTON.md)    |Redirecting to external website using About button               |
+|[TC_SD_19](./TC_SD19_LOGOUT.md)          |Logging Out Using the Logout Button in the Hamburger Menu        |
 
-> 🧪 **Total Test Cases:** 5  
+> 🧪 **Total Test Cases:** 4  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
 
 ## 🧪 Test Case Format
