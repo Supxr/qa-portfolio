@@ -9,9 +9,9 @@ The following aspects of the shopping cart were tested:
 
 |Test Case ID                                        |Test Case                                                       |
 |----------------------------------------------------|----------------------------------------------------------------|
-|[TC_SD_23](./TC_SD23_REMOVE_ITEM_FROM_CART_PAGE.md) |Removing individual Items from the shopping cart                |
-|[TC_SD_24](./TC_SD24_ADDING_QUANTITY.md)            |Raising order quantity for identical items                      | 
-|[TC_SD_25](./TC_SD25_CONTINUE_SHOPPING.md)          |Returning to the main products page from the shopping cart page |
+|[TC_SD_23](./TC_SD23_REMOVE_ITEM_FROM_CART_PAGE.md) |Removing Individual Items from the Shopping Cart                |
+|[TC_SD_24](./TC_SD24_ADDING_QUANTITY.md)            |Raising Order Quantity for Identical Items                      | 
+|[TC_SD_25](./TC_SD25_CONTINUE_SHOPPING.md)          |Returning to the Main Products Page from the Shopping Cart Page |
 |[TC_SD_26](./TC_SD26_CHECKOUT_BUTTON.md)            |Accessing the Checkout Page from the Shopping Cart Page         |
 |[TC_SD_27](./TC_SD27_EMPTY_CHECKOUT.md)             |Attempting to Checkout an Empty Shopping Cart                   |
 
