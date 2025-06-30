@@ -1,4 +1,4 @@
-# Test Case: Sorting product names by descending order (Z-to-A)
+# Test Case: Sorting Product Names by Descending Order (Z-to-A)
 
 **Test Case ID:** TC_SD_10<br>
 **Test Objectives:** To verify that sorting by `NAme (Z-to-A)` sorts the product names in descending order.<br>
