@@ -9,9 +9,9 @@ The following aspects of the product page were tested:
 
 |Test Case ID                                      |Test Case                                                         |
 |--------------------------------------------------|------------------------------------------------------------------|
-|[TC_SD_08](./TC_SD08_SORT_ASC_PRICE.md)           |Sorting product by using Low-to-High filter                       |
-|[TC_SD_09](./TC_SD09_SORC_DESC_PRICE.md)          |Sort products by using the High-to-Low filter                     | 
-|[TC_SD_10](./TC_SD10_Z_TO_A.md)                   |Sorting product names by descending order (Z-to-A)                |
+|[TC_SD_08](./TC_SD08_SORT_ASC_PRICE.md)           |Sorting Product by Using Low-to-High Filter                       |
+|[TC_SD_09](./TC_SD09_SORC_DESC_PRICE.md)          |Sort Products by Using the High-to-Low Filter                     | 
+|[TC_SD_10](./TC_SD10_Z_TO_A.md)                   |Sorting Product Names by Descending Order (Z-to-A)                |
 |[TC_SD_11](./TC_SD11_ADD_TO_CART.md)              |Adding Products to the Shopping Cart                              |
 |[TC_SD_12](./TC_SD12_REMOVE_ITEM.md)              |Removing Products from the Shopping Cart                          |
 |[TC_SD_13](./TC_SD13_PRODUCT_DETAILS.md)          |Expanding Product Details                                         |
