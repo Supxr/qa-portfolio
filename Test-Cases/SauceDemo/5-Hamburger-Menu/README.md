@@ -9,7 +9,7 @@ The following aspects of the shopping cart were tested:
 
 |Test Case ID                             |Test Case                                                        |
 |-----------------------------------------|-----------------------------------------------------------------|
-|[TC_SD_07](./TC_SD07_RESET_APP_STATE.md) |Reset App State Using the Reset App State Button                 |
+|[TC_SD_07](./TC_SD07_RESET_APP_STATE.md) |Resetting App State Using the Reset App State Button             |
 |[TC_SD_17](./TC_SD17_ALL_ITEMS.md)       |Redirecting Back to the Products Page Using the All Items button | 
 |[TC_SD_18](./TC_SD18_ABOUT_BUTTON.md)    |Redirecting to External Website Using About Button               |
 |[TC_SD_19](./TC_SD19_LOGOUT.md)          |Logging Out Using the Logout Button in the Hamburger Menu        |
