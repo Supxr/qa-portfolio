@@ -1,4 +1,4 @@
-# Test Case: Sort products by using the High-to-Low Filter
+# Test Case: Sort Products by Using the High-to-Low Filter
 
 **Test Case ID:** TC_SD_09<br>
 **Test Objectives:** To verify that applying the high-to-low filter sorts the product prices in descending order<br>
