@@ -1,7 +1,7 @@
 # SauceDemo – Shopping Cart Test Cases
 
 This folder contains a detailed set of **manual test cases** focused on the **Shopping cart** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. After logging in, the user is redirected to the product page where they can browse through the product gallery and select items to add to or remove from the shopping cart. Once in the shopping cart page, the user will have the option to add or remove items, continue shopping, or checkout. 
-These test cases validate the **`Continue Shopping` button**, **product addition/removal from shopping cart**, **`Checkout` button**, and **system behavior when attempting to check out with an empty cart**. 
+These test cases validate the **`Continue Shopping` button**, **product addition/removal functionality**, **`Checkout` button**, and **system behavior when attempting to check out with an empty cart**. 
 
 ## ✅ What Was Tested
 
