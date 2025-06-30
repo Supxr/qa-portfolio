@@ -1,4 +1,4 @@
-# Test Case: Sorting product by using Low-to-High filter
+# Test Case: Sorting Product by Using Low-to-High Filter
 
 **Test Case ID:** TC_SD_08<br>
 **Test Objectives:** To verify that applying the low-to-high sorting filter arranges the products in the correct order.<br>
