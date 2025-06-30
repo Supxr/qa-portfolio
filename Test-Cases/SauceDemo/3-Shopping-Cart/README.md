@@ -5,21 +5,17 @@ These test cases validate the **`Continue Shopping` button**, **product addition
 
 ## ✅ What Was Tested
 
-The following aspects of the product page were tested:
+The following aspects of the shopping cart were tested:
 
-|Test Case ID                                      |Test Case                                                         |
-|--------------------------------------------------|------------------------------------------------------------------|
-|[TC_SD_08](./TC_SD08_SORT_ASC_PRICE.md)           |Sorting product by using Low-to-High filter                       |
-|[TC_SD_09](./TC_SD09_SORC_DESC_PRICE.md)          |Sort products by using the High-to-Low filter                     | 
-|[TC_SD_10](./TC_SD10_Z_TO_A.md)                   |Sorting product names by descending order (Z-to-A)                |
-|[TC_SD_11](./TC_SD11_ADD_TO_CART.md)              |Adding Products to the Shopping Cart                              |
-|[TC_SD_12](./TC_SD12_REMOVE_ITEM.md)              |Removing Products from the Shopping Cart                          |
-|[TC_SD_13](./TC_SD13_PRODUCT_DETAILS.md)          |Expanding Product Details                                         |
-|[TC_SD_14](./TC_SD14_ADD_ITEM_FROM_DETAILS.md)    |Adding Product to Shopping Cart from the Product Details Page     |
-|[TC_SD_15](./TC_SD15_REMOVE_ITEM_FROM_DETAILS.md) |Removing Product from Shopping Cart from the Product Details Page |
-|[TC_SD_16](./TC_SD16_BACK_TO_PRODUCTS.md)         |Returning to the Products Page from the Product Details Page      |
+|Test Case ID                                        |Test Case                                                       |
+|----------------------------------------------------|----------------------------------------------------------------|
+|[TC_SD_23](./TC_SD23_REMOVE_ITEM_FROM_CART_PAGE.md) |Removing individual Items from the shopping cart                |
+|[TC_SD_24](./TC_SD24_ADDING_QUANTITY.md)            |Raising order quantity for identical items                      | 
+|[TC_SD_25](./TC_SD25_CONTINUE_SHOPPING.md)          |Returning to the main products page from the shopping cart page |
+|[TC_SD_26](./TC_SD26_CHECKOUT_BUTTON.md)            |Accessing the Checkout Page from the Shopping Cart Page         |
+|[TC_SD_27](./TC_SD27_EMPTY_CHECKOUT.md)             |Attempting to Checkout an Empty Shopping Cart                   |
 
-> 🧪 **Total Test Cases:** 9  
+> 🧪 **Total Test Cases:** 5  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
 
 ## 🧪 Test Case Format
