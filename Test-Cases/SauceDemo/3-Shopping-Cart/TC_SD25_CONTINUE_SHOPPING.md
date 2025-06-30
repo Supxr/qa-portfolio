@@ -1,4 +1,4 @@
-# Test Case: Returning to the main products page from the shopping cart page.
+# Test Case: Returning to the main products page from the shopping cart page
 
 **Test Case ID:** TC_SD_25<br>
 **Test Objectives:** To verify that the user is able to click the `Continue Shopping` button in the shopping cart page in order to return to the main products page.<br>
