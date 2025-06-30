@@ -1,6 +1,6 @@
 # SauceDemo – Product Page Test Cases
 
-This folder contains a detailed set of **manual test cases** focused on the **Login page** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. After logging in, the user is redirected to the product page where they can browse through the product gallery and select items to add to or remove from the shopping cart. 
+This folder contains a detailed set of **manual test cases** focused on the **Product Page** of the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. After logging in, the user is redirected to the product page where they can browse through the product gallery and select items to add to or remove from the shopping cart. 
 These test cases validate **product sorting via filters**, **product addition/removal from shopping cart**, **dedicated product details**, **`Add to cart`/`Remove`/`Back to products` button functionality**, and **alternative product addition/removal pathways**.
 
 ## ✅ What Was Tested
