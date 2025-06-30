@@ -9,8 +9,8 @@ The following aspects of the shopping cart were tested:
 |Test Case ID                                   |Test Case                                            |
 |-----------------------------------------------|-----------------------------------------------------|
 |[TC_SD_20](./TC_SD20_CART_CONTINUITY.md)       |Shopping Cart Continuity Between Pages               |
-|[TC_SD_21](./TC_SD21_MULTI_ITEM_CONTINUITY.md) |Shopping Cart continuity with multiple items present | 
-|[TC_SD_22](./TC_SD22_CART_RELOG.md)            |Shopping Cart State after Relogging into Website     |
+|[TC_SD_21](./TC_SD21_MULTI_ITEM_CONTINUITY.md) |Shopping Cart Continuity with Multiple Items Present | 
+|[TC_SD_22](./TC_SD22_CART_RELOG.md)            |Shopping Cart State After Relogging Into Website     |
 
 > 🧪 **Total Test Cases:** 3  
 > 👁️ All tests are documented in individual `.md` files following a consistent format.
