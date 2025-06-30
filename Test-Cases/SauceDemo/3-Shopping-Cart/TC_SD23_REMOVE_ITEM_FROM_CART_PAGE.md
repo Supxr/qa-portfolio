@@ -1,4 +1,4 @@
-# Test Case: Removing individual Items from the shopping cart.
+# Test Case: Removing individual Items from the shopping cart
 
 **Test Case ID:** TC_SD_23<br>
 **Test Objectives:** To verify that items can be removed from the shopping cart page.<br>
