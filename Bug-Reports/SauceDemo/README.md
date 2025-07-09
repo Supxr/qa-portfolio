@@ -2,7 +2,7 @@
 
 This folder contains a curated collection of **bug reports** based on test execution against the [SauceDemo](https://www.saucedemo.com/) (Swag Labs) web application. The reports document functional and UI-related issues found during manual testing across key modules of the application.
 
-SauceDemo is a sample e-commerce site created by [Sauce Labs](https://saucelabs.com/) to support QA practice and demonstration. These reports reflect both **real test failures** and **simulated defects** based on expected behavior in standard e-commerce platforms.
+SauceDemo is a sample e-commerce site created by [Sauce Labs](https://saucelabs.com/) to support QA practice and demonstration. These reports reflect both **real test failures** based on expected behavior in standard e-commerce platforms.
 
 ---
 
