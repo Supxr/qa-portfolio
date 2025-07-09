@@ -1,4 +1,4 @@
-# 🐞 Bug Report: Quantity Field in Cart Is Not Editable
+# Bug Report: Quantity Field in Cart Is Not Editable
 
 **Bug ID:** SD_BUG_01
 **Title:** Cart quantity field is immutable — users cannot increase item quantity  
