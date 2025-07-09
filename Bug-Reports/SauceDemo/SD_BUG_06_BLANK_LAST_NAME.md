@@ -10,7 +10,7 @@
 - OS: Windows 10
 - URL: https://www.saucedemo.com/
 
-**Link to Test:** [TC_SD_35](/Test-Cases/SauceDemo/4-Checkout-Page/TC_SD33_BLANK_LAST_NAME.md)
+**Link to Test:** [TC_SD_35](/Test-Cases/SauceDemo/4-Checkout-Page/TC_SD35_BLANK_LAST_NAME.md)
 
 ---
 ##Description:
