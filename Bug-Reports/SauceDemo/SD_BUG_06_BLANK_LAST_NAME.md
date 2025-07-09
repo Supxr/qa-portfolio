@@ -13,15 +13,15 @@
 **Link to Test:** [TC_SD_35](/Test-Cases/SauceDemo/4-Checkout-Page/TC_SD35_BLANK_LAST_NAME.md)
 
 ---
-##Description:
+## Description:
 The system accepts blankspaces into the last name field as valid characters, and allows the user to proceed to checkout.
 
 ---
-##Precondition:
+## Precondition:
 The user must be logged into the SauceDemo website and on the checkout page.
 
 ---
-##Steps to Reproduce: 
+## Steps to Reproduce: 
 1. Navigate to https://www.saucedemo.com/
 2. Enter username: `standard_user`
 3. Enter password: `secret_sauce`
@@ -36,27 +36,23 @@ The user must be logged into the SauceDemo website and on the checkout page.
 12. Click `Continue`
 
 ---
-##Expected Result(s):
+## Expected Result(s):
 The system prevents the user from continuing, and provides an error message for invalid characters in the last name field.
 
 ---
-##Actual Result(s):
+## Actual Result(s):
 The system allows the user to proceed to the Checkout: Overview screen with invalid characters in the last name field.
 
 ---
-##Screenshots:
+## Screenshots:
 ![blankspace_last_name](https://github.com/user-attachments/assets/8905fe17-bc11-4a61-8452-64006618ee88)
 ![successful_redirect](https://github.com/user-attachments/assets/bc5de29f-a4f5-4ff9-b96e-5a3ae3b1e1ab)
 
 ---
-##Reproducibility:
+## Reproducibility:
 100% — occurs consistently across Chrome and Firefox
 
 ---
-##Notes:
+## Notes:
 - This may be an intentional design decision in the app
 - However, most e-commerce platforms prohibit the use of special characters in the name fields to prevent fraud, and reinforce order accuracy.
-
-
-
-
