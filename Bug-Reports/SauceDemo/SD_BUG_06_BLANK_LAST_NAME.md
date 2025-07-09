@@ -1,6 +1,6 @@
 # Bug Report: System Allowing Blankspaces in the Last Name Field
 
-**Bug ID:** SD_BUG_05<br>
+**Bug ID:** SD_BUG_06<br>
 **Severity:** Medium<br>
 **Priority:** High<br>
 **Reported On:** 2025-06-19
