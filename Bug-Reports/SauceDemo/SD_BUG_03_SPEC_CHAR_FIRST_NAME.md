@@ -13,15 +13,15 @@
 **Link to Test:** [TC_SD_32](/Test-Cases/SauceDemo/4-Checkout-Page/TC_SD32_SPECIAL_CHAR_FIRST_NAME.md)
 
 ---
-##Description:
+## Description:
 The system accepts special characters (!@#$%^&*...) into the first name field as valid characters, and allows the user to proceed to checkout.
 
 ---
-##Precondition:
+## Precondition:
 The user must be logged into the SauceDemo website and on the checkout page.
 
 ---
-##Steps to Reproduce: 
+## Steps to Reproduce: 
 1. Navigate to https://www.saucedemo.com/
 2. Enter username: `standard_user`
 3. Enter password: `secret_sauce`
@@ -36,26 +36,23 @@ The user must be logged into the SauceDemo website and on the checkout page.
 12. Click `Continue`
 
 ---
-##Expected Result(s):
+## Expected Result(s):
 The system prevents the user from continuing, and provides an error message for invalid characters in the first name field.
 
 ---
-##Actual Result(s):
+## Actual Result(s):
 The system allows the user to proceed to the Checkout: Overview screen with invalid characters in the first name field.
 
 ---
-##Screenshots:
+## Screenshots:
 ![fieldinput](https://github.com/user-attachments/assets/45c18caa-2684-45d9-bda2-e1c616f14245)
 ![successful_redirection](https://github.com/user-attachments/assets/a7226ab5-c7b3-4107-8d18-3d27c5afa1f1)
 
 ---
-##Reproducibility:
+## Reproducibility:
 100% — occurs consistently across Chrome and Firefox
 
 ---
-##Notes:
+## Notes:
 - This may be an intentional design decision in the app
 - However, most e-commerce platforms prohibit the use of special characters in the name fields to prevent fraud, and reinforce order accuracy.
-
-
-
