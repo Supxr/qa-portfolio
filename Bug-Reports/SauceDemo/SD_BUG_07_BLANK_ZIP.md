@@ -1,4 +1,4 @@
-# Bug Report: System Allowing Blankspaces in the First Name Field
+# Bug Report: System Allowing Blankspaces in the Zip Code Field
 
 **Bug ID:** SD_BUG_07<br>
 **Severity:** High<br>
