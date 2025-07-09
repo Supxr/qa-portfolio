@@ -34,17 +34,17 @@ User must be logged in and have at least one item in the cart
 
 ---
 
-## Expected Result:
+## Expected Result(s):
 The quantity value updates to `5`, and the total price is recalculated accordingly.
 
 ---
 
-## Actual Result:
+## Actual Result(s):
 The quantity field is **not editable** — user input is ignored and the value remains `1`.
 
 ---
 
-## Screenshot:
+## Screenshot(s):
 ![immutable_quantity](https://github.com/user-attachments/assets/4c9999c9-17d0-4425-9ad0-0428c845cfde)
 
 
