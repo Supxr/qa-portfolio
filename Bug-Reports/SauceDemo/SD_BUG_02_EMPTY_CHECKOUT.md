@@ -9,3 +9,7 @@
 - Browser: Google Chrome 137.0.7151.69 (64-bit)
 - OS: Windows 10
 - URL: https://www.saucedemo.com/
+
+**Link To Test:** [TC_SD_27](/Test-Cases/SauceDemo/3-Shopping-Cart/TC_SD27_EMPTY_CHECKOUT.md)
+
+---
