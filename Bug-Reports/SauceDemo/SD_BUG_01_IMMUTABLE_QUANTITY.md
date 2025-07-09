@@ -1,7 +1,6 @@
 # Bug Report: Quantity Field in Cart Is Not Editable
 
 **Bug ID:** SD_BUG_01
-**Title:** Cart quantity field is immutable — users cannot increase item quantity  
 **Severity:** Medium  
 **Priority:** Medium  
 **Reported On:** 2025-05-14  
@@ -9,7 +8,7 @@
 - Browser: Google Chrome 137.0.7151.69 (64-bit)  
 - OS: Windows 11  
 - URL: https://www.saucedemo.com/
-
+**Link to Test:** [TC_SD_24](/Test-Cases/SauceDemo/3-Shopping-Cart/TC_SD24_ADDING_QUANTITY.md)
 ---
 
 ## 📝 Description:
