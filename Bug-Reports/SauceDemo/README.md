@@ -18,20 +18,20 @@ SauceDemo is a sample e-commerce site created by [Sauce Labs](https://saucelabs.
 ---
 
 ## 📁 Folder Structure
-Bug-Reports/
-└── SauceDemo/
-├── SD_BUG_01_IMMUTABLE_QUANTITY.md
-├── SD_BUG_02_EMPTY_CHECKOUT.md
-├── SD_BUG_03_SPEC_CHAR_FIRST_NAME.md
-├── SD_BUG_04_SPEC_CHAR_LAST_NAME.md
-├── SD_BUG_05_BLANK_FIRST_NAME.md
-├── SD_BUG_06_BLANK_LAST_NAME.md
-├── SD_BUG_07_BLANK_ZIP.md
-├── SD_BUG_08_SPECIAL_CHAR_ZIP.md
-├── SD_BUG_09_SHORT_ZIP.md
-├── SD_BUG_10_LONG_ZIP.md
-├── SD_BUG 11_INVALID_POSTAL_CODE.md
-├── SD_BUG_12_RESET_APP_STATE.md
+Bug-Reports/<br>
+└── SauceDemo/<br>
+├── SD_BUG_01_IMMUTABLE_QUANTITY.md<br>
+├── SD_BUG_02_EMPTY_CHECKOUT.md<br>
+├── SD_BUG_03_SPEC_CHAR_FIRST_NAME.md<br>
+├── SD_BUG_04_SPEC_CHAR_LAST_NAME.md<br>
+├── SD_BUG_05_BLANK_FIRST_NAME.md<br>
+├── SD_BUG_06_BLANK_LAST_NAME.md<br>
+├── SD_BUG_07_BLANK_ZIP.md<br>
+├── SD_BUG_08_SPECIAL_CHAR_ZIP.md<br>
+├── SD_BUG_09_SHORT_ZIP.md<br>
+├── SD_BUG_10_LONG_ZIP.md<br>
+├── SD_BUG 11_INVALID_POSTAL_CODE.md<br>
+├── SD_BUG_12_RESET_APP_STATE.md<br>
 
 > 💡 Bug reports are organized using the `SD_BUG_##_TITLE.md` naming convention.
 
