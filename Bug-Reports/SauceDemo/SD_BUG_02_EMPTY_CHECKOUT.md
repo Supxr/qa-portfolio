@@ -37,17 +37,17 @@ The user must be logged in and be on the shopping cart page without any items in
 
 ---
 
-# Expected Results:
+# Expected Result(s):
 The system prevents checkout of an empty cart and prompts the user to add items to the cart before checking out.
 
 ---
 
-# Actual Results:
+# Actual Result(s):
 The system allows the user to proceed to the information request form with an empty cart.
 
 ---
 
-# Screenshot:
+# Screenshot(s):
 ![empty_shopping_cart](https://github.com/user-attachments/assets/c9d0dfb8-bac4-4fa1-ad04-d86566d7824e)
 ![checkout](https://github.com/user-attachments/assets/aa510852-8890-42a0-8d4d-7a88089c2feb)
 
