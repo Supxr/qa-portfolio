@@ -17,7 +17,7 @@ SauceDemo is a sample e-commerce site created by [Sauce Labs](https://saucelabs.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 Bug-Reports/<br>
 └── SauceDemo/<br>
 ├── SD_BUG_01_IMMUTABLE_QUANTITY.md<br>
