@@ -45,9 +45,7 @@ The quantity field is **not editable** — user input is ignored and the value r
 ---
 
 ## Screenshot:
-*Include if available (optional)*  
-`/Bug-Reports/screenshots/BUG_SAUCE_001_cart_quantity_uneditable.png`
-![image](https://github.com/user-attachments/assets/4c9999c9-17d0-4425-9ad0-0428c845cfde)
+![immutable_quantity](https://github.com/user-attachments/assets/4c9999c9-17d0-4425-9ad0-0428c845cfde)
 
 
 ---
