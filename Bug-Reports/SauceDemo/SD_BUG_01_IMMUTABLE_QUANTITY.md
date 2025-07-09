@@ -1,9 +1,9 @@
 # Bug Report: Quantity Field in Cart Is Not Editable
 
-**Bug ID:** SD_BUG_01
-**Severity:** Medium  
-**Priority:** Medium  
-**Reported On:** 2025-05-14  
+**Bug ID:** SD_BUG_01<br>
+**Severity:** Medium<br>
+**Priority:** Medium<br>
+**Reported On:** 2025-05-14<br>  
 **Environment:**  
 - Browser: Google Chrome 137.0.7151.69 (64-bit)  
 - OS: Windows 10  
