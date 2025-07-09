@@ -13,46 +13,50 @@
 
 ---
 
-## 📝 Description:
+## Description:
 The quantity field in the cart appears interactive but does not accept any input changes. Users cannot increase the quantity of identical items from within the cart page.
 
 ---
 
-## ✅ Precondition:
+## Precondition:
 User must be logged in and have at least one item in the cart
 
 ---
 
-## 🔁 Steps to Reproduce:
-1. Navigate to [https://www.saucedemo.com/](https://www.saucedemo.com/)
-2. Log in using `standard_user` / `secret_sauce`
-3. Add **Sauce Labs Backpack** to the cart
-4. Click the cart icon to view cart
-5. Attempt to change the quantity value from `1` to `5` by clicking or editing the quantity field
+## Steps to Reproduce:
+1. Navigate to https://www.saucedemo.com/
+2. Enter username: `standard_user`
+3. Enter password: `secret_sauce`
+4. Click `Login`
+5. Add **Sauce Labs Backpack** to the cart
+6. Click the cart icon to view cart
+7. Attempt to change the quantity value from `1` to `5` by clicking or editing the quantity field
 
 ---
 
-## 🧪 Expected Result:
+## Expected Result:
 The quantity value updates to `5`, and the total price is recalculated accordingly.
 
 ---
 
-## ❌ Actual Result:
+## Actual Result:
 The quantity field is **not editable** — user input is ignored and the value remains `1`.
 
 ---
 
-## 📸 Screenshot:
+## Screenshot:
 *Include if available (optional)*  
 `/Bug-Reports/screenshots/BUG_SAUCE_001_cart_quantity_uneditable.png`
+![image](https://github.com/user-attachments/assets/4c9999c9-17d0-4425-9ad0-0428c845cfde)
+
 
 ---
 
-## 🔁 Reproducibility:
+## Reproducibility:
 100% — occurs consistently across Chrome and Firefox
 
 ---
 
-## 📚 Notes:
+## Notes:
 - This may be an intentional design decision in the app
 - However, most e-commerce platforms support in-cart quantity updates before checkout
