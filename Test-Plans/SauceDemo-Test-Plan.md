@@ -37,9 +37,9 @@ This document outlines the test strategy and execution approach for validating t
 ## 4. Test Environment
 
 - **Browser:** Google Chrome v137.0.7151.69 (64-bit), Firefox (latest)
-- **OS:** Windows 11
-- **Display:** 1920x1080 resolution
-- **Network:** Standard residential Wi-Fi
+- **OS:** Windows 10
+- **Display:** 3440x1440 resolution
+- **Network:** Standard residential Wi-Fi / Standard Residential Ethernet (Wired LAN)
 
 ---
 
