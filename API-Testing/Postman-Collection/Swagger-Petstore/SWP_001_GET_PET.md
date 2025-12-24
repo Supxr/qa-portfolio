@@ -20,7 +20,7 @@
 **Actual Result(s):**
 1. HTTP status code: `200` returned.<br>
 2. Response body contains a Pet object<br>
-3. Reponse body contained all expected fields.<br>
+3. Reponse body contained all expected fields as defined in the Pet schema.<br>
 4. Data types match Pet schema
 
 ---
