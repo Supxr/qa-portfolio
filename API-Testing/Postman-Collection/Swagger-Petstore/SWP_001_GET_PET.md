@@ -1,4 +1,4 @@
-# Test Case: Retrieve pet by petId
+# Test Case: Retrieve pet by petId<br>
 
 **Test Case ID:** SWP_001 <br>
 **Endpoint:** `Get /pet/{petId}`<br>
