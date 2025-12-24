@@ -75,26 +75,25 @@ Pass
 
 
 **Test Steps:**<br>
-1. Submit `GET` request to `/pet/{petId}` using petId = `999999` (other tested values: `0`, `10`, `11111111111111`).<br>
+1. Submit `GET` request to `/pet/{petId}` using invalid petId = `-10` (other tested values: `!@#$%^`, `     `, `abc`).<br>
 2. Capture response.
 
 
 **Expected Result(s):**
-1. `Status code: 404` Not Found.<br>
+1. `Status code: 400` Bad Request.<br>
 2. Response body contains the fields: `code`, `type`, and `message`.<br>
-3. Message indicates: `Pet not found`.<br>
+3. Message indicates: `Invalid ID suppled`.<br>
 3. Data types match Error Response schema.
 
 **Actual Result(s):**
 1. `Status code: 404` returned.<br>
-3. Reponse body contained all expected fields as defined in the Error Response schema.<br>
-4. Data types match Error Response schema.<br>
-5. No unexpected or undocumented fields are present in the response.
+2. Reponse body contained all expected fields as defined in the Error Response schema pertaining to an `Error 404`.<br>
+3. Data types match Error Response schema for an `Error 404`.<br>
 
 
 **Status:**
-Pass
+Fail
 
 
-**Notes:** Response values conform to the Error Response schema. Test data values appear valid for the demo environment.
+**Notes:** Response values conform to the Error 400 Response schema, but instead returned `Status code: 404` Not Found, and all related fields and error message.
 
