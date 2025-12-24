@@ -1,4 +1,7 @@
-# Test Case: Retrieve pet by petId
+## Scope
+This test suite validates the behavior of the GET /pet/{petId} endpoint for valid, non-existent, and invalid petId inputs.
+
+# Test Suite: Retrieve pet by petId
 
 **Test Case ID:** SP_GET_PET_001 <br>
 **Title:** Retrieve pet using valid petId.<br>
