@@ -52,12 +52,12 @@ Pass
 1. `Status code: 404` Not Found.<br>
 2. Response body contains the fields: `code`, `type`, and `message`.<br>
 3. Message indicates: `Pet not found`.<br>
-3. Data types match error response schema.
+3. Data types match Error Response schema.
 
 **Actual Result(s):**
 1. `Status code: 404` returned.<br>
-3. Reponse body contained all expected fields as defined in the error response schema.<br>
-4. Data types match error response schema.<br>
+3. Reponse body contained all expected fields as defined in the Error Response schema.<br>
+4. Data types match Error Response schema.<br>
 5. No unexpected or undocumented fields are present in the response.
 
 
@@ -65,5 +65,5 @@ Pass
 Pass
 
 
-**Notes:** Response values conform to the error response schema. Test data values appear valid for the demo environment.
+**Notes:** Response values conform to the Error Response schema. Test data values appear valid for the demo environment.
 
