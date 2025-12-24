@@ -28,4 +28,4 @@
 Pass
 
 ---
-**Notes:** Response values confirm to the the Pet schema. Test data values appear valid for the demo environment.
+**Notes:** Response values conform to the Pet schema. Test data values appear valid for the demo environment.
