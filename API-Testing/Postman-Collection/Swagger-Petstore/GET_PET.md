@@ -98,5 +98,5 @@ Fail
 
 **Notes:** 
 1. Invalid petId formats returned `404 Not Found` instead of `400 Bad Request`.
-2. This suggests missing or incorrect input validations as bad requests are treated as missing data.
+2. This suggests missing or incorrect input validations where bad requests are treated as missing data.
 
