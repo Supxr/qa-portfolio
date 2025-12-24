@@ -11,7 +11,7 @@ This test suite validates the behavior of the GET /pet/{petId} endpoint for vali
 
 
 **Test Steps:**<br>
-1. Submit `GET` request to `/pet/{petId}` using petId = 1<br>
+1. Submit `GET` request to `/pet/{petId}` using petId = `1`<br>
 2. Capture response
 
 
@@ -44,7 +44,7 @@ Pass
 
 
 **Test Steps:**<br>
-1. Submit `GET` request to `/pet/{petId}` using petId = 999999<br>
+1. Submit `GET` request to `/pet/{petId}` using petId = `999999`<br>
 2. Capture response
 
 
