@@ -30,8 +30,7 @@ This test suite validates the behavior of the GET /pet/{petId} endpoint for vali
 5. No unexpected or undocumented fields are present in the response.
 
 
-**Status:**
-Pass
+**Status:** ✅Pass
 
 
 **Notes:** Response values conform to the Pet schema. Test data values appear valid for the demo environment.
@@ -61,8 +60,7 @@ Pass
 5. No unexpected or undocumented fields are present in the response.
 
 
-**Status:**
-Pass
+**Status:** ✅Pass
 
 
 **Notes:** Response values conform to the Error Response schema. Test data values appear valid for the demo environment.
@@ -92,8 +90,7 @@ Pass
 4. Data types match Error Response schema (`404`).
 
 
-**Status:**
-Fail
+**Status:** ❌Fail
 
 
 **Notes:** 
