@@ -83,13 +83,13 @@ Pass
 1. `Status code: 400` Bad Request.<br>
 2. Response body contains the fields: `code`, `type`, and `message`.<br>
 3. Message indicates: `Invalid ID suppled`.<br>
-3. Data types match Error(`400`) Response schema.
+3. Data types match Error Response schema (`400`).
 
 **Actual Result(s):**
 1. `Status code: 404` returned.<br>
 2. Response body contains the fields: `code`, `type`, and `message`.<br>
 3. Message indicates: `Pet not found`.<br>
-4. Data types match Error(`404`) Response schema.
+4. Data types match Error Response schema (`404`).
 
 
 **Status:**
