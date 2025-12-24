@@ -39,7 +39,7 @@ Pass
 ---
 **Test Case ID:** SP_GET_PET_002 <br>
 **Title:** Retrieve pet using non-existent petId.<br>
-**Endpoint:** `Get /pet/{petId}`<br>
+**Endpoint:** `GET /pet/{petId}`<br>
 **Preconditions:** API key set via Swagger UI (api_key: special-key).
 
 
