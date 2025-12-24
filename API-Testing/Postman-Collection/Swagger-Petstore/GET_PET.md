@@ -40,20 +40,17 @@ Pass
 
 
 **Test Steps:**<br>
-1. Submit `GET` request to `/pet/{petId}` using petId = 1<br>
+1. Submit `GET` request to `/pet/{petId}` using petId = 999999<br>
 2. Capture response
 
 
 **Expected Result(s):**
-1. `Status code: 200` OK<br>
-2. Response body contains a Pet object<br>
-3. Fields `id`, `category`, `name`, `photoUrls`, `tags`, and `status` are present<br>
-4. Data types match Pet schema
-
+1. `Status code: 404` Not Found.<br>
+2. Response body contains the fields: `code`, `type`, and `message`.<br>
+3. Data types match schema.
 
 **Actual Result(s):**
-1. HTTP status code: `200` returned.<br>
-2. Response body contains a Pet object<br>
+1. `Status code: 404` returned.<br>
 3. Reponse body contained all expected fields as defined in the Pet schema.<br>
 4. Data types match Pet schema.<br>
 5. No unexpected or undocumented fields are present in the response.
