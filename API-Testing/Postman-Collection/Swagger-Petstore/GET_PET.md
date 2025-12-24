@@ -83,17 +83,20 @@ Pass
 1. `Status code: 400` Bad Request.<br>
 2. Response body contains the fields: `code`, `type`, and `message`.<br>
 3. Message indicates: `Invalid ID suppled`.<br>
-3. Data types match Error Response schema.
+3. Data types match Error(`400`) Response schema.
 
 **Actual Result(s):**
 1. `Status code: 404` returned.<br>
-2. Reponse body contained all expected fields as defined in the Error Response schema pertaining to an `Error 404`.<br>
-3. Data types match Error Response schema for an `Error 404`.<br>
+2. Response body contains the fields: `code`, `type`, and `message`.<br>
+3. Message indicates: `Pet not found`.<br>
+4. Data types match Error(`404`) Response schema.
 
 
 **Status:**
 Fail
 
 
-**Notes:** Response values conform to the Error 400 Response schema, but instead returned `Status code: 404` Not Found, and all related fields and error message.
+**Notes:** 
+1. Invalid petId formats returned `404 Not Found` instead of `400 Bad Request`.
+2. This suggests missing or incorrect input validations as bad requests are treated as missing data.
 
