@@ -6,8 +6,7 @@
 ---
 **Test Steps:**<br>
 1. Send a `GET` request to `/pet/{petId}` using petId = 1<br>
-2. Click `execute`<br>
-3. Capture response<br><br>
+2. Capture response<br><br>
 ---
 **Expected Result(s):**
 1. `Status code: 200` OK<br>
