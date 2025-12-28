@@ -12,9 +12,6 @@ Valid create, invalid payloads, schema/validation behaviour.
 
 **Preconditions:** API key set via Swagger UI (api_key: special-key).
 
-
-
-
 **Test Steps:**
 1. Submit `POST` request to `/pet` using valid pet JSON payload with ID: `10001`.
 2. Capture response
