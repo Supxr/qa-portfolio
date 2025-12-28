@@ -5,8 +5,11 @@ Valid create, invalid payloads, schema/validation behaviour.
 
 
 **Test Case ID:** SP_POST_PET_001
+
 **Title:** Create Pet using valid payload.
+
 **Endpoint:** `POST /pet`
+
 **Preconditions:** API key set via Swagger UI (api_key: special-key).
 
 
