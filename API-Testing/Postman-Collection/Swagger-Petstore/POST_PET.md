@@ -72,5 +72,5 @@ Valid create, invalid payloads, schema/validation behaviour.
 **Status:** ❌Fail
 
 **Notes:** 
-1. Specs document invalid input as `status code: 405`; API accepted payload and persisted data anyway
+1. Swagger specification documents `missing required fields` as `status code: 404 Invalid input`, however API accepted the payload and created Pet object without the required `name` field.
 2. indicates missing validation/spec mismatch.
