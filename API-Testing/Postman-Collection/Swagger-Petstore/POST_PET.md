@@ -56,21 +56,21 @@ Valid create, invalid payloads, schema/validation behaviour.
 
 
 **Expected Result(s):**
-1. `Status code: 405` Invalid input for POST submission.
-2. POST submission is denied.
+1. `Status code: 405` Invalid input for POST submission (as documented in Swagger Petstore).
+2. POST submission is rejected.
 3. Error message indicates: `Invalid input`.
-4. New Pet is not created.
+4. GET request returns `status code: 404` Pet not found.
 
 
 **Actual Result(s):**
-1. `Status code: 200` OK for POST submission.
-2. Response body contains the fields: `id`, `category`, `photoUrls`, `tags`, `status` 
-5. Returned `ID` matches submitted `ID`
-6. GET returns `Status code: 200` OK and the created Pet.
+1. POST returned `Status code: 200` OK 
+2. Pet object returned without required `name`
+6. GET returns `Status code: 200` OK with created Pet.
 7. No unexpected or undocumented fields are present in the response.
 
 
 **Status:** ❌Fail
 
 **Notes:** 
-1. `POST /pet` request was successful (status code: 200 OK) even when `name` field was missing.
+1. Specs document invalid input as `status code: 405`; API accepted payload and persisted data anyway
+2. indicates missing validation/spec mismatch.
