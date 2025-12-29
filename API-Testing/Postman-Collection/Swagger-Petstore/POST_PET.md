@@ -107,5 +107,5 @@ Valid create, invalid payloads, schema/validation behaviour.
 **Status:** ❌Fail
 
 **Notes:** 
-1. Both POST and GET requests are rejected, however they are not providing the correct status code (405 Invalid input; as per Swagger documentation).
+1. While both POST and GET requests are correctly rejected, they are not providing the correct status code and error message (405 Invalid input; as per Swagger documentation).
 2. This indicates missing validation.
