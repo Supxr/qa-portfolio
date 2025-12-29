@@ -74,3 +74,38 @@ Valid create, invalid payloads, schema/validation behaviour.
 **Notes:** 
 1. Swagger specification documents `missing required fields` as `status code: 404 Invalid input`, however API accepted the payload and created Pet object without the required `name` field.
 2. indicates missing validation/spec mismatch.
+
+---
+**Test Case ID:** SP_POST_PET_003
+
+**Title:** Create Pet with invalid input value.
+
+**Endpoint:** `POST /pet`
+
+**Preconditions:** API key set via Swagger UI (api_key: special-key).
+
+**Test Steps:**
+1. Send `POST` request to `/pet` using id = `"abc"`
+2. Capture response.
+
+
+**Expected Result(s):**
+1. `Status code: 405` Invalid input for POST submission (as documented in Swagger Petstore).
+2. POST request is rejected.
+3. Response body error indicates `status code: 405 Invalid input` (as per Swagger documentation).
+4. GET request returns `status code: 404` Pet not found.
+
+
+**Actual Result(s):**
+1. POST request is rejected.
+2. POST request error message indicates: `Please correct the following validation errors and try again. For 'body' at path 'id': Value must be an integer.`
+3. GET request is rejected.
+4. GET requiest error message indicates: `Please correct the following validation errors and try again. For 'petId': Value must be an integer`
+5. No status code, response body or response header appear.
+
+
+**Status:** ❌Fail
+
+**Notes:** 
+1. Both POST and GET requests are rejected, however they are not providing the correct status code (405 Invalid input; as per Swagger documentation).
+2. This indicates missing validation.
