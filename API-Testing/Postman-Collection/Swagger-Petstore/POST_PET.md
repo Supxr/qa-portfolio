@@ -93,17 +93,17 @@ Valid create, invalid payloads, schema/validation behaviour.
 1. `Status code: 405` Invalid input for POST submission (as documented in Swagger Petstore).
 2. POST request is rejected.
 3. Response body error indicates `status code: 405 Invalid input` (as per Swagger documentation).
+4. Pet is not created.
 
 
 
 **Actual Result(s):**
 1. POST request is rejected.
 2. POST request error message indicates: `Please correct the following validation errors and try again. For 'body' at path 'id': Value must be an integer.`
-3. No status code, response body or response header appear.
 
 
 **Status:** ❌Fail
 
 **Notes:** 
-1. While POST request was correctly rejected, it did not provide the correct status code and error message (405 Invalid input; as per Swagger documentation).
-2. This indicates missing validation.
+1. While POST request was correctly rejected, the API does not return the documented status code (405 Invalid Input).
+2. Validation appears to occur before the request reaches the API, resulting in an early rejection of the input.
